@@ -1,0 +1,35 @@
+.Textform {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top:  14px;
+    flex-direction: column;
+}
+
+.Textform > textarea {
+    width: 70%;
+    height: 36%;
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.btn-container {
+    width: 70%;
+    height: 14%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.textStats {
+    width: 70%;
+}
+
+.preview {
+    width: 70%;
+    margin-top: 18px;
+    overflow: scroll;
+}
