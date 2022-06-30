@@ -1,10 +1,12 @@
 .Textform {
     height: 80vh;
     width: 100%;
+    position: absolute;
     display: flex;
+    top: 57px;
     /* justify-content: center; */
     align-items: center;
-    margin-top:  14px;
+    margin-top: 14px;
     flex-direction: column;
 }
 
@@ -32,4 +34,8 @@
     width: 70%;
     margin-top: 18px;
     overflow: scroll;
+}
+
+.heading {
+    height: 38px;
 }
